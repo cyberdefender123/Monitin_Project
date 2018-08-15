@@ -2,6 +2,8 @@ import os
 import hashlib
 from datetime import *
 import requests
+import stat
+import virus_total_apis, json
 
 
 def FileToHash(path):
